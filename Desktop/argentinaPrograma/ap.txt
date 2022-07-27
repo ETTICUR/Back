@@ -1,0 +1,78 @@
+<div class="row">
+    <h1>Educación</h1>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10"></div>
+    <ul>
+      <li>
+         <h2>Full stack developer - Argentina Programa</h2><h4> (Actualidad - Diciembre 2021)</h4>
+         <h4>Argentina Programa</h4>
+         <p>           </p>
+        </li>
+         <li>
+         <h2>Profesorado en docencia superior y educación media</h2><h4>(Del 2019 a 2022)</h4>
+         <h4>Universidad Tecnológica Nacional de Buenos Aires (UTN)</h4>
+         <p> </p>
+        </li>
+         <li>
+         <h2>Diplomatura en gestión de emprendimientos</h2> <h4> (Del 2014 al 2015)</h4>
+         <h4>Universidad Siglo XXI</h4>
+         <p></p>
+        </li>
+
+<li>
+         <h2>Licenciatura en administración</h2> <h4> (Del 2007 al 2013)</h4>
+         <h4>Universidad Nacional de Córdoba</h4>
+         <p></p>
+        </li>
+
+<li>
+         <h2>Programa Lazos: Formación para consultores Mipyme </h2> <h4> (Año 2013)</h4>
+         <h4>Universidad Nacional de Córdoba (UNC)</h4>
+         <p></p>
+        </li>
+
+<li>
+         <h2>Jóvenes de UNASUR por una economía social y para la integración regional</h2> <h4> (Año 2013)</h4>
+         <h4>Universidad Nacional de Buenos Aires (UBA)</h4>
+         <p></p>
+        </li>
+  </ul>
+</div>
+
+
+<div class="row">
+    <h1>Experiencia laboral</h1>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10"></div>
+    <ul>
+        <li>
+           <h2>Responsable de experiencia del asociado</h2><h3> (Actualidad - Enero 2020)</h3>
+           <h3>Asociación Mutual SanCor Salud</h3>
+           <p>Control de procesos y actividades pendientes. Seguimientos de indicadores de satisfacción y desempeño de personal a cargo. Monitoreos de caja.
+            Actualmente entrenando a distintas sucursales del país en la implementación del sistema CRM para la compañia. Participante activa del proyecto de cambio de gestión
+           </p>
+          </li>
+           <li>
+           <h2>Docente de nivel secundario y adultos</h2><h3>(Diciembre 2021 - Marzo 2020)</h3>
+           <h3>Escuelas estatales provincia de La Pampa</h3>
+           <p> Dictado de clases como "gestión de las organizaciones" (II y III) y "Proyecto asociado al mundo del trabajo" en escuela técnica con orientación a informatica, durante el periodo de aislamiento social preventido de la pandemia COVID 19, dictando clases en modalidad virtual con herramientas que motiven la continuidad del alumnado</p>
+          </li>
+           <li>
+           <h2>Control de procesos y gestión</h2> <h3> (Diciembre 2019 - Junio 2014)</h3>
+           <h3>Pelayo Agronomía S.A</h3>
+           <p>Implementación y creación de indicadores de las distintas unidades de negocio de la compañia. Relevamiento de información de sistemas para posterior automatización de las mediciones (macros de excel). Generar consciencia en el equipo de lo relevante de medirnos liderarnos el proceso de cambio a esta metodologia de trabajo</p>
+          </li>
+    </ul>
+</div>
+
+
+<div class="row">
+  <h1>Proyectos realizados</h1>
+  <div class="contenedor">
+    <div class="col-sm-12 col-md-7 col-lg-7 parte1">
+        <h3>Entrenadora de implementación CRM - Actualmente</h3>
+        <p>Conformo parte del equipo de KU que llevamos adelante la implementación y prueba de CRM. Además dicto tres capacitaciones diarias a los distintos equipos de usuarios finales sobre el uso de la herramienta y realizo soporte.</p>
+    <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 parte2">
+      <img src="../../../assets/Salesforce.com_logo.jpg" class="img-fluid img-proyecto">
+     </div>
+</div>
