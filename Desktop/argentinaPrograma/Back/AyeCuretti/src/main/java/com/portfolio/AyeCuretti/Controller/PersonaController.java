@@ -8,6 +8,7 @@ import com.portfolio.AyeCuretti.Entity.Persona;
 import com.portfolio.AyeCuretti.Interface.IPersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -32,12 +33,14 @@ public class PersonaController {
         return ipersonaService.getPersona();
     }
     
+    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping("/pesonas/crear")
     public String createPersona(@RequestBody Persona persona){
         ipersonaService.savePersona(persona);
         return "Se ha grabado la persona";
     }
     
+    @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/persona/borrar/(id)")
     public String deletePersona(@PathVariable Long id){
         ipersonaService.deletPersona(id);
@@ -45,6 +48,7 @@ public class PersonaController {
     }
     
     //URL:PUERTO/persona/editar/
+    @PreAuthorize("hasRole('ADMIN')")
     @PutMapping("/personas/editar/(id)")
     public Persona editPersona (@PathVariable Long id,
                                 @RequestParam("nombre") String nuevoNombre,
