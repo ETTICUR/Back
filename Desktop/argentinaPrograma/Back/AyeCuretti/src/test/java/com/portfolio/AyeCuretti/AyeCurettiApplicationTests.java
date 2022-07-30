@@ -1,10 +1,10 @@
-package com.portfolio.ayecuretti;
+package com.portfolio.AyeCuretti;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class pi_curettiApplicationTests {
+class AyeCurettiApplicationTests {
 
 	@Test
 	void contextLoads() {
